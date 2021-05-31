@@ -1,0 +1,22 @@
+form label {
+    font-weight: bold;
+    margin: 10px 0 0 10px;
+}
+
+.card {
+    margin: 10px 0 10px 10px;
+}
+
+input {
+    display: block;
+    width: 75%;
+    border-radius: 5px;
+    margin: 10px 0 10px 10px;
+}
+
+div .btn {
+    color: white;
+    background-color: rgb(103, 161, 238);
+    width: 75%;
+    margin: 10px 0 10px 10px;
+}

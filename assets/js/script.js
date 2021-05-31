@@ -1,5 +1,7 @@
 var cityFormEl = document.querySelector("#city-input");
 var nameInputEl = document.querySelector("#name");
+var formInputEl = document.querySelector("#form-input");
+var nameEl = document.querySelector("#name");
 var cityName = nameInputEl.value.trim();
 
 
@@ -31,7 +33,11 @@ var getCity = function () {
             console.log(data);
         })
     })
+
+    // 5 day forcast
+    var forcast = "https://api.openweathermap.org/data/2.5/forecast?q=" + {cityName} + "&appid=" + {myKey};
+
 }
 
-// 5 day forcast
-var forcast = "https://api.openweathermap.org/data/2.5/forecast?q=" + {cityName} + "&appid=" + {myKey};
+
+// for (let i=0, i < nameInputEl.length; i++)
